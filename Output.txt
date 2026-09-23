@@ -1,0 +1,121 @@
+--- Q1 fizzBuzz(5) ---
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+16
+17
+Fizz
+19
+Buzz
+--- Q2 getGrade ---
+A
+C
+F
+--- Q3 dayType ---
+Weekend
+Weekday
+--- Q4 sumEven ---
+30
+--- Q5 factorial ---
+120
+1
+--- Q6 countVowels ---
+10
+--- Q7 reverseNumber ---
+5544332211
+--- Q8 findMax ---
+71
+undefined
+--- Q9 isPrime ---
+true
+false
+false
+--- Q10 cToF ---
+32
+212
+--- Q11 makeCounter ---
+1
+2
+3
+--- Q12 wordCount ---
+{ a: 3, b: 2, c: 1 }
+
+--- Q13 swap ---
+[ 20, 10 ]
+[ 'fail', 'pass' ]
+--- Q14 describe ---
+Aarav can be reached at aarav@qrius.io
+--- Q15 merge ---
+{ browser: 'chrome', headless: false, retries: 0, timeout: 5000 }
+{ browser: 'chrome', headless: true, retries: 0 }
+{ headless: false, timeout: 5000 }
+--- Q16 sumAll ---
+27
+100
+--- Q17 getCity ---
+London
+Unknown
+--- Q18 doubleAll ---
+[ 10, 20, 30 ]
+--- Q19 getAdults ---
+[ { name: 'Emma', age: 18 }, { name: 'Olivia', age: 34 } ]
+--- Q20 totalPrice ---
+250
+--- Q21 findById ---
+{ id: 102, name: 'Leo' }
+undefined
+--- Q22 sumEvenSquares ---
+200
+--- Q23 safeParse ---
+done
+{ test: 'login', passed: true }
+done
+null
+--- Q24 validateAge ---
+42
+ValidationError: Age must be positive
+
+--- Q25 event loop ---
+A
+D
+C
+B
+--- Q26 delay ---
+Hi
+--- Q27 run ---
+Start
+End
+--- Q28 getUser ---
+{ id: 1, name: 'User1' }
+--- Q29 loadAll ---
+elapsed ~502ms (parallel, not 1500ms)
+[
+  { id: 1, name: 'User1' },
+  { id: 2, name: 'User2' },
+  { id: 3, name: 'User3' }
+]
+--- Q30 safe ---
+Caught: Network failed
+--- Q31 withTimeout ---
+Caught: Timed out
+beat the timeout: { id: 7, name: 'User7' }
+--- Q32 retry ---
+attempt 1 failed: flaky #1
+attempt 2 failed: flaky #2
+succeeded on attempt 3
+attempt 1 failed: flaky #1
+attempt 2 failed: flaky #2
+attempt 3 failed: flaky #3
+all attempts failed, re-thrown: flaky #3
